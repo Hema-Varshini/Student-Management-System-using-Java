@@ -1,18 +1,23 @@
 Problem Statement:
+
 Implement a StudentManagementSystem, This system can handle
 multiple departments and students. Create Student class and Department
 classs with the below properties.
+
 Department:
 private String deptName (this is unique, each deptName will uniquely
 identify the department),
 private String deptHead.
+
 Student:
 private long studentID (this is unique, each studentID will uniquely
 identify the student),
 private String studentName,
 private int creditScore
+
 Create relationships in java so that each department can have a list of
 students.
+
 Implement the below methods in StudentManagement.java
 1.public boolean enrollStudent(Student student, long deptName) throws
 StudentAlreadyExistsException This method will enroll the given student
@@ -29,6 +34,7 @@ department objects and test all the above methods.
 
 
 Description
+
 This program is to implement a StudentManagementSystem in which
 there are several tasks to be performed. In this program there is one
 interface named StudentManagementSystem which handle many
@@ -61,8 +67,6 @@ in descending order of their credit score. So for this to get implemented
 we use sorting technique so as to print the details in descending order of
 their credit score. If we want to print the details of students only with
 respective to one department, then we print in those details in
-
-Page 5
 accordance to their department. We do these multiple operations using a
 switch case where different cases are provided to perform users task.
 And we create a tester class, it contains a main() in which we write the
